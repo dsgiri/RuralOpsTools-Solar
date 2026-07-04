@@ -130,7 +130,7 @@ export default function PumpSizing() {
                 <div className="text-xs text-slate-500 mt-1 font-mono">{formatNumber(dailyEnergyWh, 0)} Wh/day</div>
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="bg-slate-800 p-4 rounded">
                   <div className="text-slate-400 text-[10px] uppercase mb-1">Solar Array Size</div>
                   <div className="text-2xl font-mono font-bold">{formatNumber(arraySizeWatts, 0)}<span className="text-sm font-normal ml-1">W</span></div>
