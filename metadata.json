@@ -1,0 +1,6 @@
+{
+  "name": "Solar by RuralOpsTools",
+  "description": "Practical solar array and battery storage calculators for off-grid rural operations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
