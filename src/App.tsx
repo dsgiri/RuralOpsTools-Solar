@@ -10,6 +10,7 @@ import SolarCalculator from "@/pages/SolarCalculator";
 import BatteryCalculator from "@/pages/BatteryCalculator";
 import PumpSizing from "@/pages/PumpSizing";
 import GateSizing from "@/pages/GateSizing";
+import PaybackCalculator from "@/pages/PaybackCalculator";
 import FAQ from "@/pages/FAQ";
 import Assumptions from "@/pages/Assumptions";
 import About from "@/pages/About";
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="battery-calculator" element={<BatteryCalculator />} />
           <Route path="pump-sizing" element={<PumpSizing />} />
           <Route path="gate-sizing" element={<GateSizing />} />
+          <Route path="payback-calculator" element={<PaybackCalculator />} />
           <Route path="faq" element={<FAQ />} />
           <Route path="assumptions" element={<Assumptions />} />
           <Route path="about" element={<About />} />

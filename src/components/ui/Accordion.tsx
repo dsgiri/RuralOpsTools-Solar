@@ -6,9 +6,9 @@ export function Accordion({ children, className }: { children: React.ReactNode, 
   return <div className={cn("space-y-2", className)}>{children}</div>
 }
 
-export function AccordionItem({ title, children }: { title: string, children: React.ReactNode }) {
+export function AccordionItem({ title, children, ...props }: { title: string, children: React.ReactNode } & React.HTMLAttributes<HTMLDetailsElement>) {
   return (
-    <details className="group border border-slate-200 rounded bg-white [&_summary::-webkit-details-marker]:hidden">
+    <details className="group border border-slate-200 rounded bg-white [&_summary::-webkit-details-marker]:hidden" {...props}>
       <summary className="flex cursor-pointer items-center justify-between p-4 font-bold text-sm text-slate-900">
         {title}
         <ChevronDown className="h-5 w-5 transition duration-300 group-open:-rotate-180 text-slate-500" />

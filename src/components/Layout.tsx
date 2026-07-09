@@ -13,9 +13,11 @@ export function Layout() {
     { to: "/battery-calculator", label: "Battery Storage" },
     { to: "/pump-sizing", label: "Pump Calculator" },
     { to: "/gate-sizing", label: "Gate Calculator" },
+    { to: "/payback-calculator", label: "Payback ROI" },
   ];
   
   const footerLinks = [
+    { to: "/faq", label: "FAQ" },
     { to: "/assumptions", label: "Assumptions" },
     { to: "/about", label: "About" },
     { to: "/contact", label: "Contact" },
